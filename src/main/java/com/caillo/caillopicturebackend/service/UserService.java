@@ -1,6 +1,6 @@
-package generator.service;
+package com.caillo.caillopicturebackend.service;
 
-import generator.domain.User;
+import com.caillo.caillopicturebackend.model.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

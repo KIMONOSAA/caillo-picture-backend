@@ -1,9 +1,9 @@
-package generator.service.impl;
+package com.caillo.caillopicturebackend.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import generator.domain.User;
-import generator.service.UserService;
-import generator.mapper.UserMapper;
+import com.caillo.caillopicturebackend.model.entity.User;
+import com.caillo.caillopicturebackend.service.UserService;
+import com.caillo.caillopicturebackend.mapper.UserMapper;
 import org.springframework.stereotype.Service;
 
 /**
