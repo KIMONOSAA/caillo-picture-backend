@@ -4,11 +4,14 @@ server:
     context-path: /api
 
 spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
   application:
     name: caillo-picture-backend
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ca_picture
+    url: jdbc:mysql://localhost:3306/yun_picture
     username: root
     password: 123456
 mybatis-plus:
