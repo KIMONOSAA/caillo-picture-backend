@@ -21,8 +21,12 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * 已废弃
+ */
 @Service
 @Slf4j
+@Deprecated
 public class FileManager {  
   
     @Resource

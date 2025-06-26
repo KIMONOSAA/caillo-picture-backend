@@ -1,6 +1,7 @@
 package com.caillo.caillopicturebackend.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+
 import com.caillo.caillopicturebackend.model.dto.user.UserQueryRequest;
 import com.caillo.caillopicturebackend.model.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
